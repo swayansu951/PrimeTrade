@@ -21,11 +21,16 @@ def get_binance_client() -> Client:
     else:
         logger.warning("Using Binance Futures MAINNET (Live Trading).")
         
-    client = Client(api_key, api_secret, testnet=use_testnet)
+    # Initialize without testnet=True in constructor to avoid auto-pinging the Spot API
+    client = Client(api_key, api_secret)
     
     if use_testnet:
-        # python-binance's testnet=True only redirects Spot endpoints by default.
-        # We must explicitly redirect Futures endpoints to the Futures Testnet URL.
+        logger.info("Configuring client for Binance Futures TESTNET.")
+        # Override endpoints for Futures
         client.FUTURES_URL = 'https://testnet.binancefuture.com/fapi'
+        # Important: python-binance may use specialized URLs for some calls
+        client.API_URL = 'https://testnet.binance.vision/api'
+    else:
+        logger.warning("Using Binance Futures MAINNET (Live Trading).")
         
     return client
