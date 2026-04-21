@@ -1,0 +1,20 @@
+2026-04-21 12:31:47,039 - DEBUG - Initializing Binance Client.
+2026-04-21 12:31:47,039 - INFO - Using Binance Futures TESTNET (Paper Trading).
+2026-04-21 12:31:48,020 - INFO - Submitting MARKET BUY order for 3.0 of BTCUSDT. Params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 3.0}
+2026-04-21 12:31:48,914 - ERROR - Binance API Error: 401 - API-key format invalid.
+2026-04-21 13:09:23,012 - DEBUG - Initializing Binance Client.
+2026-04-21 13:09:23,012 - INFO - Using Binance Futures TESTNET (Paper Trading).
+2026-04-21 13:09:25,002 - INFO - Submitting MARKET BUY order for 3.0 of BTUSDT. Params: {'symbol': 'BTUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 3.0}
+2026-04-21 13:09:25,708 - ERROR - Binance API Error: 401 - Invalid API-key, IP, or permissions for action
+2026-04-21 13:13:04,014 - DEBUG - Initializing Binance Client.
+2026-04-21 13:13:04,014 - INFO - Using Binance Futures TESTNET (Paper Trading).
+2026-04-21 13:13:04,817 - INFO - Submitting MARKET BUY order for 3.0 of BTCUSDT. Params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 3.0}
+2026-04-21 13:13:06,045 - ERROR - Binance API Error: 401 - Invalid API-key, IP, or permissions for action
+2026-04-21 13:23:24,934 - DEBUG - Initializing Binance Client.
+2026-04-21 13:23:24,934 - INFO - Using Binance Futures TESTNET (Paper Trading).
+2026-04-21 13:23:27,807 - INFO - Submitting MARKET BUY order for 4.0 of BTUSDT. Params: {'symbol': 'BTUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 4.0}
+2026-04-21 13:23:28,634 - ERROR - Binance API Error: 401 - Invalid API-key, IP, or permissions for action
+2026-04-21 13:27:00,062 - DEBUG - Initializing Binance Client.
+2026-04-21 13:27:00,062 - INFO - Using Binance Futures TESTNET (Paper Trading).
+2026-04-21 13:27:00,736 - INFO - Submitting MARKET BUY order for 0.01 of BTCUSDT. Params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-04-21 13:27:01,794 - ERROR - Binance API Error: 401 - Invalid API-key, IP, or permissions for action
